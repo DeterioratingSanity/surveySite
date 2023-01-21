@@ -10,6 +10,13 @@
 
 body{
   background-color: var(--red-4);
+  font-family: 'Ubuntu-Title', sans-serif;
+  font-size: 3vh;
+}
+.header{
+  margin-top: 1vh;
+  font-size: 5vh;
+  line-height: 0;
 }
 
 .frame-divider{
