@@ -4,7 +4,9 @@
 *     Some interactability crucial, hovers, buttons, etc
 *     Make it light
 */
-@import "https://unpkg.com/open-props"; /* elements useful to underlying structure */
+
+@import "https://unpkg.com/open-props";
+/*    elements useful to underlying structure */
 
 body{
   background-color: var(--red-4);
@@ -30,7 +32,7 @@ body{
   transition: box-shadow .6s ;
 }
 
-.organizer-frame:hover{
+.organizer-frame:hover, .organizer-frame:active{
   box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
   transition: box-shadow .3s;
 }
