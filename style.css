@@ -4,3 +4,67 @@
 *     Some interactability crucial, hovers, buttons, etc
 *     Make it light
 */
+@import "https://unpkg.com/open-props"; /* elements useful to underlying structure */
+
+body{
+  background-color: var(--red-4);
+}
+
+.frame-divider{
+  height: 15vh;
+}
+.divider{
+  height: 5vh;
+}
+
+.organizer-frame{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  aspect-ratio: 1/.7;
+  background-color: white;
+  margin: auto;
+  border-radius: var(--radius-4);
+  box-shadow: var(--inner-shadow-2);
+  transition: box-shadow .6s ;
+}
+
+.organizer-frame:hover{
+  box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
+  transition: box-shadow .3s;
+}
+
+.organizer-body{
+  width: 60vw;
+  aspect-ratio: 1/.7;
+  margin: auto;
+  padding-top: 2vh;
+}
+
+@media screen and (min-width:550px){
+  .organizer-frame{
+    width: 60vw;
+  }
+  .organizer-body{
+    width: 48vw;
+  }
+}
+
+@media screen and (min-width:1000px){
+  .organizer-frame{
+    width: 40vw;
+  }
+  .organizer-body{
+    width: 32vw;
+  }
+}
+
+@media screen and (min-width:1500px){
+  .organizer-frame{
+    width: 35vw;
+  }
+  .organizer-body{
+    width: 27vw;
+  }
+}
