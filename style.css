@@ -27,6 +27,14 @@ body{
 .frame-divider{
   height: 25vh;
 }
+.id{
+  margin-left: 1vw;
+  color: white;
+  padding-bottom: 3vh;
+  font-size:5vh;
+  text-shadow: var(--red-6) 5px 5px;
+  text-decoration: none;
+}
 .title{
   color: white;
   font-size:10vh;
