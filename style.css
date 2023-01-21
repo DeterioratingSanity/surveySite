@@ -28,13 +28,8 @@ body{
   background-color: white;
   margin: auto;
   border-radius: var(--radius-4);
-  box-shadow: var(--inner-shadow-2);
+  box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;;
   transition: box-shadow .6s ;
-}
-
-.organizer-frame:hover, .organizer-frame:active{
-  box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
-  transition: box-shadow .3s;
 }
 
 .organizer-body{
@@ -47,26 +42,41 @@ body{
 @media screen and (min-width:600px){
   .organizer-frame{
     width: 60vw;
+    box-shadow: var(--inner-shadow-2);
   }
   .organizer-body{
     width: 48vw;
+  }
+  .organizer-frame:hover{
+    box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
+    transition: box-shadow .3s;
   }
 }
 
 @media screen and (min-width:1000px){
   .organizer-frame{
     width: 40vw;
+    box-shadow: var(--inner-shadow-2);
   }
   .organizer-body{
     width: 32vw;
+  }
+  .organizer-frame:hover{
+    box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
+    transition: box-shadow .3s;
   }
 }
 
 @media screen and (min-width:1500px){
   .organizer-frame{
     width: 35vw;
+    box-shadow: var(--inner-shadow-2);
   }
   .organizer-body{
     width: 27vw;
+  }
+  .organizer-frame:hover{
+    box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
+    transition: box-shadow .3s;
   }
 }
