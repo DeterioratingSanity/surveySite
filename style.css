@@ -13,6 +13,11 @@ body{
   font-family: 'Ubuntu-Title', sans-serif;
   font-size: 3vh;
 }
+*::selection{
+  color: white;
+  background: var(--red-6);
+  text-shadow: none;
+}
 .header{
   margin-top: 1vh;
   font-size: 5vh;
