@@ -20,7 +20,13 @@ body{
 }
 
 .frame-divider{
-  height: 15vh;
+  height: 25vh;
+}
+.title{
+  color: white;
+  font-size:10vh;
+  text-shadow: var(--red-6) 7px 7px;
+  margin-left: 1vw;
 }
 .divider{
   height: 5vh;
@@ -72,6 +78,9 @@ body{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
     transition: box-shadow .3s;
   }
+  .frame-divider{
+    height: 15vh;
+  }
 }
 
 @media screen and (min-width:1500px){
@@ -85,5 +94,8 @@ body{
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
     transition: box-shadow .3s;
+  }
+  .frame-divider{
+    height: 15vh;
   }
 }
