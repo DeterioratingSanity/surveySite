@@ -37,7 +37,7 @@ body{
 }
 .title{
   color: white;
-  font-size:3.3em;
+  font-size:3em;
   text-shadow: var(--red-6) 7px 7px;
   margin-left: 1vw;
 }
