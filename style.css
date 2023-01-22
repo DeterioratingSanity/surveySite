@@ -11,7 +11,7 @@
 body{
   background-color: var(--red-4);
   font-family: 'Ubuntu-Title', sans-serif;
-  font-size: 3vh;
+  font-size: 1.65em;
 }
 *::selection{
   color: white;
@@ -20,7 +20,7 @@ body{
 }
 .header{
   margin-top: 1vh;
-  font-size: 5vh;
+  font-size: 1.77em; /*5vh*/
   line-height: 0;
 }
 
