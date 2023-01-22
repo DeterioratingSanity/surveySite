@@ -20,7 +20,7 @@ body{
 }
 .header{
   margin-top: 1vh;
-  font-size: 5vh;
+  font-size: 1.45em;
   line-height: 0;
 }
 
@@ -37,7 +37,7 @@ body{
 }
 .title{
   color: white;
-  font-size:3em;
+  font-size:2em;
   text-shadow: var(--red-6) 7px 7px;
   margin-left: 1vw;
 }
@@ -94,6 +94,9 @@ body{
   .frame-divider{
     height: 15vh;
   }
+  .title{
+    font-size:3em;
+  }
 }
 
 @media screen and (min-width:1500px){
@@ -110,5 +113,8 @@ body{
   }
   .frame-divider{
     height: 15vh;
+  }
+  .title{
+    font-size:3em;
   }
 }
