@@ -21,11 +21,11 @@ body{
 .header{
   margin-top: 1vh;
   font-size: 1.45em;
-  line-height: 0;
+  line-height: .7em;
 }
 
 .frame-divider{
-  height: 5em;
+  min-height: 5em;
 }
 .id{
   margin-left: 1vw;
@@ -135,7 +135,7 @@ body{
     transition: .3s;
   }
   .frame-divider{
-    height: 15vh;
+    min-height: 15vh;
   }
   .title{
     font-size:3em;
@@ -172,7 +172,7 @@ body{
     transition: .3s;
   }
   .frame-divider{
-    height: 15vh;
+    min-height: 15vh;
   }
   .title{
     font-size:3em;
