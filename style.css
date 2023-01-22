@@ -25,7 +25,7 @@ body{
 }
 
 .frame-divider{
-  height: 5.2em;
+  height: 5em;
 }
 .id{
   margin-left: 1vw;
@@ -40,6 +40,9 @@ body{
   font-size:2em;
   text-shadow: var(--red-6) 7px 7px;
   margin-left: 1vw;
+  line-height:.7em;
+  display:flex;
+  align-items:center;
 }
 .divider{
   height: 5vh;
