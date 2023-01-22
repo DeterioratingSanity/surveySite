@@ -68,6 +68,19 @@ body{
   padding-top: 2vh;
 }
 
+.content-link{
+  text-decoration: none;
+  color: var(--red-6);
+  padding: 5px;
+  border: 5px solid var(--red-4);
+  box-shadow: 5px 5px var(--red-6);
+  border-radius: var(--radius-3);
+  transition: .3s;
+  margin-left: -6px;
+}
+.top{
+  padding-top:.2em;
+}
 @media screen and (min-width:600px){
   .organizer-frame{
     width: 60vw;
@@ -79,6 +92,23 @@ body{
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
     transition: box-shadow .3s;
+  }
+  .content-link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 5px solid black;
+    box-shadow: 0 0 var(--red-6);
+    border-radius: var(--radius-3);
+    transition: .3s;
+  }
+  .content-link:hover{
+    color: var(--red-6);
+    padding: 5px;
+    border: 5px solid var(--red-4);
+    box-shadow: 5px 5px var(--red-6);
+    border-radius: var(--radius-3);
+    transition: .3s;
   }
 }
 
@@ -93,6 +123,23 @@ body{
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
     transition: box-shadow .3s;
+  }
+  .content-link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 5px solid black;
+    box-shadow: 0 0 var(--red-6);
+    border-radius: var(--radius-3);
+    transition: .3s;
+  }
+  .content-link:hover{
+    color: var(--red-6);
+    padding: 5px;
+    border: 5px solid var(--red-4);
+    box-shadow: 5px 5px var(--red-6);
+    border-radius: var(--radius-3);
+    transition: .3s;
   }
   .frame-divider{
     height: 15vh;
@@ -113,6 +160,23 @@ body{
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
     transition: box-shadow .3s;
+  }
+  .content-link{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 5px solid black;
+    box-shadow: 0 0 var(--red-6);
+    border-radius: var(--radius-3);
+    transition: .3s;
+  }
+  .content-link:hover{
+    color: var(--red-6);
+    padding: 5px;
+    border: 5px solid var(--red-4);
+    box-shadow: 5px 5px var(--red-6);
+    border-radius: var(--radius-3);
+    transition: .3s;
   }
   .frame-divider{
     height: 15vh;
