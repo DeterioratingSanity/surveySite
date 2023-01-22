@@ -53,7 +53,7 @@ body{
   align-items: center;
   justify-content: center;
   width: 80vw;
-  aspect-ratio: 1/.75;
+  aspect-ratio: 1/.85;
   min-height:8em;
   background-color: white;
   margin: auto;
@@ -64,7 +64,7 @@ body{
 
 .organizer-body{
   width: 60vw;
-  aspect-ratio: 1/.75;
+  aspect-ratio: 1/.85;
   min-height:8em;
   margin: auto;
   padding-top: 2vh;
@@ -87,9 +87,11 @@ body{
   .organizer-frame{
     width: 60vw;
     box-shadow: var(--inner-shadow-2);
+    aspect-ratio: 1/.75;
   }
   .organizer-body{
     width: 48vw;
+    aspect-ratio: 1/.75;
   }
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
@@ -111,9 +113,11 @@ body{
   .organizer-frame{
     width: 40vw;
     box-shadow: var(--inner-shadow-2);
+    aspect-ratio: 1/.75;
   }
   .organizer-body{
     width: 32vw;
+    aspect-ratio: 1/.75;
   }
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
@@ -148,9 +152,11 @@ body{
   .organizer-frame{
     width: 35vw;
     box-shadow: var(--inner-shadow-2);
+    aspect-ratio: 1/.75;
   }
   .organizer-body{
     width: 27vw;
+    aspect-ratio: 1/.75;
   }
   .organizer-frame:hover{
     box-shadow: var(--inner-shadow-4), var(--red-6) 15px 15px;
