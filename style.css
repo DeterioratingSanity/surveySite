@@ -86,7 +86,6 @@ body{
 @media screen and (min-width:600px){
   .organizer-frame{
     width: 60vw;
-    box-shadow: var(--inner-shadow-2);
     aspect-ratio: 1/.75;
   }
   .organizer-body{
