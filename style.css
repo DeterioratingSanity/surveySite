@@ -45,7 +45,7 @@ body{
   align-items:center;
 }
 .divider{
-  height: 2em;
+  height: 1em;
 }
 
 .organizer-frame{
@@ -105,6 +105,8 @@ body{
     border-radius: var(--radius-3);
     transition: .3s;
     margin-left: -6px;
+  }.divider{
+  height: 2em;
   }
 }
 
@@ -145,6 +147,9 @@ body{
   .title{
     font-size:3em;
   }
+  .divider{
+  height: 2em;
+  }
 }
 
 @media screen and (min-width:1500px){
@@ -183,5 +188,7 @@ body{
   }
   .title{
     font-size:3em;
+  }.divider{
+  height: 2em;
   }
 }
