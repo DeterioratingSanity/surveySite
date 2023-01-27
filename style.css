@@ -38,11 +38,8 @@ body{
   line-height:.7em;
   display:flex;
   align-items:center;
-}
-.title::selection{
-  color: white;
-  background: var(--red-6);
-  text-shadow: 0 0 white;
+  user-select: none;
+  cursor: default;
 }
 .divider{
   height: 1.5em;
