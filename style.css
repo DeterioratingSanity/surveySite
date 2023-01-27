@@ -86,7 +86,7 @@ body{
 *::selection{
   color: white;
   background: var(--red-6);
-  text-shadow: none;
+  text-shadow: unset;
 }
 @media screen and (min-width:600px){
   .organizer-frame{
