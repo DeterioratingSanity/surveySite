@@ -16,7 +16,7 @@ body{
 *::selection{
   color: white;
   background: var(--red-6);
-  text-shadow: var(--red-6) 0 0;
+  text-shadow: none;
 }
 .header{
   margin-top: 1vh;
@@ -47,7 +47,7 @@ body{
 .title::selection{
   color: white;
   background: var(--red-6);
-  text-shadow: var(--red-13) 0 0;
+  text-shadow: none;
 }
 .divider{
   height: 1.5em;
