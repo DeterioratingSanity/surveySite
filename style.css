@@ -27,13 +27,13 @@ body{
   color: white;
   padding-bottom: 3vh;
   font-size:2em;
-  text-shadow: var(--red-6) 5px 5px;
+  text-shadow: 5px 5px var(--red-6) ;
   text-decoration: none;
 }
 .title{
   color: white;
   font-size:2em;
-  text-shadow: var(--red-6) 7px 7px;
+  text-shadow: 7px 7px var(--red-6) ;
   margin-left: 1vw;
   line-height:.7em;
   display:flex;
@@ -42,7 +42,7 @@ body{
 .title::selection{
   color: white;
   background: var(--red-6);
-  text-shadow: none;
+  text-shadow: 0 0 white;
 }
 .divider{
   height: 1.5em;
@@ -86,7 +86,7 @@ body{
 *::selection{
   color: white;
   background: var(--red-6);
-  text-shadow: unset;
+  text-shadow: 0 0 white;
 }
 @media screen and (min-width:600px){
   .organizer-frame{
