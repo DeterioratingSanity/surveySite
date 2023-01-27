@@ -16,7 +16,7 @@ body{
 *::selection{
   color: white;
   background: var(--red-6);
-  text-shadow: none;
+  text-shadow: var(--red-6) 0 0;
 }
 .header{
   margin-top: 1vh;
